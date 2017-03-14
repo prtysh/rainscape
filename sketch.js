@@ -37,7 +37,7 @@ function raindrop(x,y){
 
   this.show = function(){
     stroke(185,20,255,map(this.z,0,20,0,255));
-    strokeWeight(map(this.z,0,20,1,3));
+    strokeWeight(map(this.z,0,20,1,2));
     line(this.x,this.y,this.x,this.y+this.size);
   }
 }
