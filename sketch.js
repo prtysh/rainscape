@@ -9,7 +9,7 @@ function setup() {
 
 function draw() {
 
-  background(150,200,250);
+  background(0);
   //stroke(185,20,255);
   for (var i = 0; i<dropNum; i++) {
   drops[i].show();
